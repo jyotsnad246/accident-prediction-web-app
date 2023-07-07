@@ -30,3 +30,5 @@ city of Munich, Germany. As the dataset contains several columns, but the focus 
 3. 'Verletzte und Getötete' - injured and killed
 
 ---
+
+## The final results are generated through a Neural Network (GRU)
