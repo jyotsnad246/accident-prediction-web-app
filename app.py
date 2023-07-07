@@ -78,14 +78,6 @@ def main():
     else:
         st.image(Image.open('images/prophetVerkehrsunfälle.png'))
 
-    st.subheader("Historical Trends")
-    if en_cat == 0:
-        st.image(Image.open('images/Alkoholunfalle.png'))
-    elif en_cat == 1:
-        st.image(Image.open('images/Fluchtunfälle.png'))
-    else:
-        st.image(Image.open('images/Verkehrsunfälle.png'))
-
 
 if __name__ == '__main__':
     main()
