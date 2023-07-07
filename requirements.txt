@@ -1,7 +1,1 @@
-pickle
-pandas
 keras
-tensorflow
-numpy
-streamlit
-PIL
