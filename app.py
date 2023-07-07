@@ -5,6 +5,7 @@ import pickle
 import numpy as np
 from PIL import Image
 import os
+import keras
 
 # Get the directory path of the current script
 current_dir = os.path.dirname(os.path.abspath(__file__))
