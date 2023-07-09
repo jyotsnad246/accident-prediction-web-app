@@ -31,4 +31,8 @@ city of Munich, Germany. As the dataset contains several columns, but the focus 
 
 ---
 
+## Pipeline of the Project
+
+![Pipeline](images/pipeline.drawio.png)
+
 ## The final results are generated through a Neural Network (GRU)
