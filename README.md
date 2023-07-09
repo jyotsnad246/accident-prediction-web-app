@@ -33,6 +33,38 @@ city of Munich, Germany. As the dataset contains several columns, but the focus 
 
 ## Pipeline of the Project
 
-![Pipeline](images/pipeline.png)
+<p align="center">
+    <img src="/images/pipeline.png">
+</p>
 
-## The final results are generated through a Neural Network (GRU)
+---
+
+## Trends
+
+### Alkoholunfälle
+
+<p align="center">
+    <img src="/images/prophetAlkoholunfälle2.png">
+</p>
+
+### Fluchtunfälle
+
+<p align="center">
+    <img src="/images/prophetFluchtunfälle2.png">
+</p>
+
+### Verkehrsunfälle
+
+<p align="center">
+    <img src="/images/prophetVerkehrsunfälle2.png">
+</p>
+
+---
+
+### The final results are generated through my own model which contains various GRU, Dense, Batch Normalisation and Dropout Layers
+
+## Deployed Web App
+
+Link : https://ai-challenge-jyotsna.streamlit.app/
+
+---
