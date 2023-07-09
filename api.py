@@ -17,7 +17,7 @@ def predict():
     prediction = model.predict(input_data)[0]
 
     response = {"prediction": float(prediction)}
-    return jsonify(response)
+    return jsonify(response), 200, {"Content-Type": "application/json"}
 
 if __name__ == "__main__":
     app.run()
