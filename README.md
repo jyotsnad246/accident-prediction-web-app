@@ -59,6 +59,24 @@ city of Munich, Germany. As the dataset contains several columns, but the focus 
     <img src="/images/prophetVerkehrsunfälle2.png">
 </p>
 
+## Endpoint.py
+
+Returns the predictions.
+
+It accepts a POST request with a JSON body like this:
+{
+"year":2020,
+"month":10
+}
+and returns the applications prediction in the format {
+"prediction":value
+}
+
+
+<p align="center">
+    <img src="/images/endpoint.png">
+</p>
+
 ---
 
 ### The final results are generated through my own model which contains various GRU, Dense, Batch Normalisation and Dropout Layers
