@@ -22,7 +22,7 @@ def main():
     st.set_page_config(page_title="DPS AI", layout="wide")
 
     # App header
-    st.title("DPS AI Challenge : Prediction of Accidents using Time Series Forecasting")
+    st.title("AI Challenge : Prediction of Accidents using Time Series Forecasting")
 
     st.markdown("""
                 The app forecasts the number of accidents in a month based on the **“Monatszahlen Verkehrsunfälle”** Dataset from the München Open Data Portal.  
