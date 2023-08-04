@@ -1,4 +1,4 @@
-# DPS AI Challenge
+# Problem Statement
 
 To predict number of accidents, vizualize historical trends and create a web app for the same.
 
@@ -71,7 +71,6 @@ It accepts a POST request with a JSON body like this:
 and returns the applications prediction in the format {
 "prediction":value
 }
-
 
 <p align="center">
     <img src="/images/endpoint.png">
